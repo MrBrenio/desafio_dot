@@ -1,7 +1,7 @@
 <template>
   <div class="background-header">
-    <span class="logo"> logo </span>
-    <span class="pesquisar"> pesquisar </span>
+    <span class="logo"><img src="//www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" alt="the movie database api" role="presentation"></span>
+    <input type="text" placeholder="O que você procura?">
     <span class="fav"> fav </span>
     <span class="checkout"> checkout </span>
   </div>
@@ -26,6 +26,8 @@ export default {
 
 .logo {
   color: black;
+  width: 5rem;
+  height: 5rem;
 }
 
 .pesquisar {
